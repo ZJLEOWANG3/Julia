@@ -10,6 +10,7 @@ ENV["PWD"]
 path = ENV["PWD"]
 rm -rf path/compiled/v1.6
 rm -rf path/environments/v1.6
+rm -rf /Applications/Julia1.6/*
 ```
 
 3. In Julia, Add the kernel to Jupyter (will work for lab & notebook)
